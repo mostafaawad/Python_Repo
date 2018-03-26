@@ -14,6 +14,7 @@ class child(parent):
         parent.__init__(self, lastName, eyeColor)
         self.toysNumber = toysNumber
 
+#Overriding parent method
     def show_info(self):
         print "Lastname is: " + self.lastName
         print "Eye color is: " + self.eyeColor
